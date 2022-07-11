@@ -700,7 +700,7 @@ ZeroMQ_DIR:PATH=ZeroMQ_DIR-NOTFOUND
 ZeroMQ_LIBRARY_zmq:FILEPATH=/usr/lib/libzmq.so
 
 //Path to a file.
-_file_name:FILEPATH=/home/trec/catkin_ws/src/ros_control/joint_limits_interface/test/joint_limits_rosparam.test
+_file_name:FILEPATH=/home/trec/catkin_ws/src/rosserial/rosserial_test/test/rosserial_python_socket.test
 
 //Path to a file.
 _gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h
@@ -1299,8 +1299,7 @@ image_transport_DIR:PATH=/opt/ros/noetic/share/image_transport/cmake
 //Value Computed by CMake
 joint_limits_interface_BINARY_DIR:STATIC=/home/trec/catkin_ws/build/ros_control/joint_limits_interface
 
-//The directory containing a CMake configuration file for joint_limits_interface.
-joint_limits_interface_DIR:PATH=/home/trec/catkin_ws/devel/share/joint_limits_interface/cmake
+joint_limits_interface_DIR:PATH=
 
 //Value Computed by CMake
 joint_limits_interface_IS_TOP_LEVEL:STATIC=OFF
@@ -1318,7 +1317,7 @@ kdl_conversions_DIR:PATH=/opt/ros/noetic/share/kdl_conversions/cmake
 kdl_parser_DIR:PATH=/opt/ros/noetic/share/kdl_parser/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/noetic/lib/librosconsole_bridge.so
+lib:FILEPATH=/opt/ros/noetic/lib/librostime.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/noetic/share/message_filters/cmake
@@ -1665,8 +1664,7 @@ trajectory_msgs_DIR:PATH=/opt/ros/noetic/share/trajectory_msgs/cmake
 //Value Computed by CMake
 transmission_interface_BINARY_DIR:STATIC=/home/trec/catkin_ws/build/ros_control/transmission_interface
 
-//The directory containing a CMake configuration file for transmission_interface.
-transmission_interface_DIR:PATH=/home/trec/catkin_ws/devel/share/transmission_interface/cmake
+transmission_interface_DIR:PATH=
 
 //Value Computed by CMake
 transmission_interface_IS_TOP_LEVEL:STATIC=OFF
@@ -1814,7 +1812,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=38
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=20
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1872,7 +1870,7 @@ DL_INCLUDE_DIRS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DL_LIBRARIES
 DL_LIBRARIES-ADVANCED:INTERNAL=1
 //Details about finding Boost
-FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib64/cmake/Boost-1.79.0/BoostConfig.cmake][cfound components: thread system filesystem program_options regex iostreams date_time ][v1.79.0(1.40.0)]
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib64/cmake/Boost-1.79.0/BoostConfig.cmake][cfound components: system thread ][v1.79.0()]
 //Details about finding CURL
 FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[/usr/lib/libcurl.so][/usr/include][c ][v7.84.0()]
 //Details about finding DL
@@ -1890,7 +1888,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_Protobuf:INTERNAL=[/usr/lib/libprotobuf.so][/usr/in
 //Details about finding Python
 FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[/usr/bin/python3.10][cfound components: Interpreter ][v3.10.5()]
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.10.5()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.10.5(3)]
 //Details about finding PythonLibs
 FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs:INTERNAL=[/usr/lib/libpython3.10.so][/usr/include/python3.10][v3.10.5()]
 //Details about finding Threads

@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/simple_transmission_test.dir/test/simple_transmission_test.cpp.o -o /home/trec/catkin_ws/devel/lib/transmission_interface/simple_transmission_test   -L/home/trec/catkin_ws/build/gtest  -Wl,-rpath,/home/trec/catkin_ws/build/gtest:/home/trec/catkin_ws/build/gtest/lib ../../gtest/lib/libgtest.so.1.12.0 
