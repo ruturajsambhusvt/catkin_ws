@@ -314,8 +314,8 @@ ENABLE_PROFILER:BOOL=OFF
 //The directory containing a CMake configuration file for Eigen3.
 Eigen3_DIR:PATH=/usr/share/eigen3/cmake
 
-//The directory containing a CMake configuration file for Franka.
-Franka_DIR:PATH=/usr/local/lib/cmake/Franka
+//No help, variable specified on the command line.
+Franka_DIR:PATH=/home/trec/Desktop/Raj/PandaArm/PandaCodes/libfranka/build
 
 //The directory containing a CMake configuration file for GMock.
 GMock_DIR:PATH=GMock_DIR-NOTFOUND
@@ -939,8 +939,7 @@ franka_gazebo_SOURCE_DIR:STATIC=/home/trec/catkin_ws/src/franka_ros/franka_gazeb
 //Value Computed by CMake
 franka_gripper_BINARY_DIR:STATIC=/home/trec/catkin_ws/build/franka_ros/franka_gripper
 
-//The directory containing a CMake configuration file for franka_gripper.
-franka_gripper_DIR:PATH=/home/trec/catkin_ws/devel/share/franka_gripper/cmake
+franka_gripper_DIR:PATH=
 
 //Value Computed by CMake
 franka_gripper_IS_TOP_LEVEL:STATIC=OFF
@@ -975,8 +974,7 @@ franka_hw_sim_LIB_DEPENDS:STATIC=general;/usr/lib/libgazebo.so;general;/usr/lib/
 //Value Computed by CMake
 franka_msgs_BINARY_DIR:STATIC=/home/trec/catkin_ws/build/franka_ros/franka_msgs
 
-//The directory containing a CMake configuration file for franka_msgs.
-franka_msgs_DIR:PATH=/home/trec/catkin_ws/devel/share/franka_msgs/cmake
+franka_msgs_DIR:PATH=
 
 //Value Computed by CMake
 franka_msgs_IS_TOP_LEVEL:STATIC=OFF
@@ -1317,7 +1315,7 @@ kdl_conversions_DIR:PATH=/opt/ros/noetic/share/kdl_conversions/cmake
 kdl_parser_DIR:PATH=/opt/ros/noetic/share/kdl_parser/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/noetic/lib/librostime.so
+lib:FILEPATH=/opt/ros/noetic/lib/libxmlrpcpp.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/noetic/share/message_filters/cmake
@@ -1811,7 +1809,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=19
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=25
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
