@@ -1511,58 +1511,6 @@ rosserial_server_udp_socket_node/fast:
 .PHONY : rosserial_server_udp_socket_node/fast
 
 #=============================================================================
-# Target rules for targets named helloworld_ros_lib
-
-# Build rule for target.
-helloworld_ros_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloworld_ros_lib
-.PHONY : helloworld_ros_lib
-
-# fast build rule for target.
-helloworld_ros_lib/fast:
-	$(MAKE) $(MAKESILENT) -f helloworld/CMakeFiles/helloworld_ros_lib.dir/build.make helloworld/CMakeFiles/helloworld_ros_lib.dir/build
-.PHONY : helloworld_ros_lib/fast
-
-#=============================================================================
-# Target rules for targets named helloworld_firmware
-
-# Build rule for target.
-helloworld_firmware: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloworld_firmware
-.PHONY : helloworld_firmware
-
-# fast build rule for target.
-helloworld_firmware/fast:
-	$(MAKE) $(MAKESILENT) -f helloworld/CMakeFiles/helloworld_firmware.dir/build.make helloworld/CMakeFiles/helloworld_firmware.dir/build
-.PHONY : helloworld_firmware/fast
-
-#=============================================================================
-# Target rules for targets named helloworld_firmware_hello
-
-# Build rule for target.
-helloworld_firmware_hello: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloworld_firmware_hello
-.PHONY : helloworld_firmware_hello
-
-# fast build rule for target.
-helloworld_firmware_hello/fast:
-	$(MAKE) $(MAKESILENT) -f helloworld/CMakeFiles/helloworld_firmware_hello.dir/build.make helloworld/CMakeFiles/helloworld_firmware_hello.dir/build
-.PHONY : helloworld_firmware_hello/fast
-
-#=============================================================================
-# Target rules for targets named helloworld_firmware_hello-upload
-
-# Build rule for target.
-helloworld_firmware_hello-upload: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloworld_firmware_hello-upload
-.PHONY : helloworld_firmware_hello-upload
-
-# fast build rule for target.
-helloworld_firmware_hello-upload/fast:
-	$(MAKE) $(MAKESILENT) -f helloworld/CMakeFiles/helloworld_firmware_hello-upload.dir/build.make helloworld/CMakeFiles/helloworld_firmware_hello-upload.dir/build
-.PHONY : helloworld_firmware_hello-upload/fast
-
-#=============================================================================
 # Target rules for targets named rosserial_test_rosserial_lib
 
 # Build rule for target.
@@ -2050,10 +1998,6 @@ help:
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_py"
-	@echo "... helloworld_firmware"
-	@echo "... helloworld_firmware_hello"
-	@echo "... helloworld_firmware_hello-upload"
-	@echo "... helloworld_ros_lib"
 	@echo "... nav_msgs_generate_messages_cpp"
 	@echo "... nav_msgs_generate_messages_eus"
 	@echo "... nav_msgs_generate_messages_lisp"

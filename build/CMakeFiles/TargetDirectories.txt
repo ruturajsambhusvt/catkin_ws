@@ -213,17 +213,6 @@
 /home/trec/catkin_ws/build/rosserial/rosserial_server/CMakeFiles/install.dir
 /home/trec/catkin_ws/build/rosserial/rosserial_server/CMakeFiles/install/local.dir
 /home/trec/catkin_ws/build/rosserial/rosserial_server/CMakeFiles/install/strip.dir
-/home/trec/catkin_ws/build/helloworld/CMakeFiles/helloworld_ros_lib.dir
-/home/trec/catkin_ws/build/helloworld/CMakeFiles/helloworld_firmware.dir
-/home/trec/catkin_ws/build/helloworld/CMakeFiles/helloworld_firmware_hello.dir
-/home/trec/catkin_ws/build/helloworld/CMakeFiles/helloworld_firmware_hello-upload.dir
-/home/trec/catkin_ws/build/helloworld/CMakeFiles/test.dir
-/home/trec/catkin_ws/build/helloworld/CMakeFiles/edit_cache.dir
-/home/trec/catkin_ws/build/helloworld/CMakeFiles/rebuild_cache.dir
-/home/trec/catkin_ws/build/helloworld/CMakeFiles/list_install_components.dir
-/home/trec/catkin_ws/build/helloworld/CMakeFiles/install.dir
-/home/trec/catkin_ws/build/helloworld/CMakeFiles/install/local.dir
-/home/trec/catkin_ws/build/helloworld/CMakeFiles/install/strip.dir
 /home/trec/catkin_ws/build/rosserial/rosserial_embeddedlinux/CMakeFiles/test.dir
 /home/trec/catkin_ws/build/rosserial/rosserial_embeddedlinux/CMakeFiles/edit_cache.dir
 /home/trec/catkin_ws/build/rosserial/rosserial_embeddedlinux/CMakeFiles/rebuild_cache.dir
